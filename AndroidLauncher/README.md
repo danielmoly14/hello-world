@@ -5,7 +5,10 @@ Launcher (pantalla de inicio) personalizado y ligero para Android 8.0+ escrito e
 ## Funciones
 
 - **Reloj y fecha** grandes en la pantalla de inicio, sobre tu fondo de pantalla.
-- **Apps favoritas en inicio**: mantén pulsada una app → *Añadir a inicio* / *Quitar de inicio* (hasta 24).
+- **Apps favoritas en inicio**: mantén pulsada una app → *Añadir a inicio* / *Quitar de inicio* (hasta 24 elementos entre apps y carpetas).
+- **Carpetas**: mantén pulsada una app → *Mover a carpeta…* → elige una o crea *+ Nueva carpeta*.
+  Toca la carpeta para abrirla; mantenla pulsada para renombrarla o eliminarla (sus apps vuelven a inicio).
+  Dentro de una carpeta, mantén pulsada una app → *Sacar de la carpeta*. Las carpetas vacías se borran solas.
 - **Cajón de apps** con todas las apps en orden alfabético y **buscador** (pulsa "Ir" en el teclado para abrir el primer resultado).
 - **Gestos**:
   - Deslizar hacia arriba → abre el cajón.
@@ -48,9 +51,13 @@ app/src/main/
 ├── java/com/danielmoly/launcher/
 │   ├── MainActivity.kt          # Inicio, cajón, gestos y menús
 │   ├── AppInfo.kt               # Modelo de app + carga de apps/iconos
-│   ├── AppAdapter.kt            # Adaptador de las cuadrículas
+│   ├── AppAdapter.kt            # Adaptador del cajón y carpetas
+│   ├── HomeAdapter.kt           # Adaptador de inicio (apps + carpetas)
+│   ├── HomeStore.kt             # Lógica de inicio y carpetas
+│   ├── HomeItem.kt              # App o carpeta en inicio
+│   ├── FolderIcon.kt            # Icono de carpeta con miniaturas
 │   ├── ExpandedGridView.kt      # Cuadrícula de inicio sin scroll
-│   └── Prefs.kt                 # Favoritos y columnas guardados
+│   └── Prefs.kt                 # Inicio, carpetas y columnas guardados
 └── res/                         # Layouts, textos, tema e icono
 ```
 
