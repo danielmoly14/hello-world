@@ -1,0 +1,8 @@
+<resources>
+    <color name="text">#FFFFFFFF</color>
+    <color name="text_secondary">#CCFFFFFF</color>
+    <color name="drawer_bg">#E6101418</color>
+    <color name="search_bg">#33FFFFFF</color>
+    <color name="accent">#FF4FC3F7</color>
+    <color name="icon_bg">#FF1E88E5</color>
+</resources>

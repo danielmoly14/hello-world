@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mi Launcher</string>
+    <string name="all_apps">Apps</string>
+    <string name="search_hint">Buscar apps…</string>
+    <string name="home_empty">Mantén pulsada una app del cajón y elige \"Añadir a inicio\"</string>
+    <string name="add_to_home">Añadir a inicio</string>
+    <string name="remove_from_home">Quitar de inicio</string>
+    <string name="app_info">Información de la app</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="change_wallpaper">Cambiar fondo de pantalla</string>
+    <string name="system_settings">Ajustes del sistema</string>
+    <string name="choose_default_launcher">Elegir launcher predeterminado</string>
+    <string name="columns">Columnas: %1$d</string>
+    <string name="cannot_open">No se pudo abrir la app</string>
+    <string name="home_full">Inicio lleno (máx. %1$d apps)</string>
+    <string name="menu">Menú</string>
+</resources>
